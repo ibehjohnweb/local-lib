@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = [
-    'johnlib.herokuapp.com/', '127.0.0.1',
+    'johnlib.herokuapp.com', '127.0.0.1',
 ]
 
 
